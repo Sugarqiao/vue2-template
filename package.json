@@ -1,0 +1,47 @@
+{
+  "name": "lightcloud-pagedesign",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PROXY_ENV=dev vue-cli-service serve --mode dev",
+    "dev:devtest": "cross-env PROXY_ENV=devtest vue-cli-service serve --mode dev",
+    "dev:kdtest": "cross-env PROXY_ENV=kdtest vue-cli-service serve --mode dev",
+    "dev:private": "cross-env PROXY_ENV=private vue-cli-service serve --mode dev.private",
+    "build": "vue-cli-service build --mode prod",
+    "build:private": "vue-cli-service build --mode prod.private",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@sentry/tracing": "^6.19.7",
+    "@sentry/vue": "^6.19.7",
+    "axios": "^0.19.0",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^3.0.1",
+    "qs": "^6.9.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.3.1",
+    "shelljs": "^0.8.5",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-merge": "^4.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

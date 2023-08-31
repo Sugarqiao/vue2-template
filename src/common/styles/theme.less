@@ -1,0 +1,100 @@
+// @theme-color: #F59C25;
+@theme-color: #4598F0;
+
+
+@bg-gray: #E1EAF1;
+@bg-white: #FFFFFF;
+
+@title-font-family: "-apple-system",BlinkMacSystemFont,Arial,Microsoft YaHei,Microsoft JhengHei,Helvetica Neue,sans-serif;
+@title-main-color: #1D1D1D;
+@title-main-fontsize: 18px;
+@title-minor-color: #1D1D1D;
+@title-minor-fontsize: 16px;
+
+@text-font-family: "-apple-system",BlinkMacSystemFont,Arial,Microsoft YaHei,Microsoft JhengHei,Helvetica Neue,sans-serif;
+@text-main-color: #1D1D1D;
+@text-main-fontsize: 14px;
+@text-minor-color: #768893;
+@text-minor-fontsize: 12px;
+@text-explain-color: #4598F0;
+@text-explain-fontsize: 13px;
+
+.title-main {
+  color: @title-main-color;
+  font-size: @title-main-fontsize;
+  font-family: @title-font-family;
+  font-weight: bold;
+}
+
+.title-minor {
+  color: @title-minor-color;
+  font-size: @title-minor-fontsize;
+  font-family: @title-font-family;
+  font-weight: bold;
+}
+
+.text-main {
+  color: @text-main-color;
+  font-size: @text-main-fontsize;
+  font-family: @text-font-family;
+}
+
+.text-main-13 {
+  color: @text-main-color;
+  font-size: 13px;
+  font-family: @text-font-family;
+}
+
+.text-main-12 {
+  color: @text-main-color;
+  font-size: 12px;
+  font-family: @text-font-family;
+}
+
+.text-minor {
+  color: @text-minor-color;
+  font-size: @text-minor-fontsize;
+  font-family: @text-font-family;
+}
+
+.text-explain {
+  color: @text-explain-color;
+  font-size: @text-explain-fontsize;
+  font-family: @text-font-family;
+}
+
+.btn-buy--small, .btn-buy--medium {
+  background: #DF6835;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &.is-blue {
+    background: #4598F0;
+  }
+
+  &.is-default {
+    border: 1px solid #E6E8EE;
+    color: #1D1D1D;
+    background: #F8F9FB;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-buy--small {
+  padding: 0 8px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.btn-buy--medium {
+  padding: 0 22px;
+  min-width: 96px;
+  height: 34px;
+  font-size: 13px;
+  line-height: 34px;
+}
