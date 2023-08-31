@@ -13,5 +13,3 @@
   yarn install  // npm install
   yarn dev    // npm run dev
   ```
-
-# vue2-template
